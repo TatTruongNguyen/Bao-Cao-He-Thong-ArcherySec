@@ -116,17 +116,17 @@ $ docker-compose up -d
 - Tiến hành cài đặt bằng dòng lệnh
 `$ ./ZAP 2.11.1.unix.sh`
 - Ở tại ứng dụng OWASP ZAP
- - Tools > Options > API > Copy API Key
- - Tools > Options > Local Proxies > Copy Address và Port
+  - Tools > Options > API > Copy API Key
+  - Tools > Options > Local Proxies > Copy Address và Port
 - Tại hệ thống Archerysec
- - Settings > Enable API > Paste ZAP API Key > Paste ZAP API Host > Paste ZAP API Port
-- Save
+  - Settings > Enable API > Paste ZAP API Key > Paste ZAP API Host > Paste ZAP API Port
+  - Save
  # 3. Demo scan trang web với OWASP ZAP
  - Tại hệ thống Archerysec 
-  - Create New > Domain Scans
-  - URL's: nhập URL muốn scan (ví dụ:https://www.facebook.com/)
-  - Chọn Project
-  - Enable ZAP Scanner
-  - Lauch
+   - Create New > Domain Scans
+   - URL's: nhập URL muốn scan (ví dụ:https://www.facebook.com/)
+   - Chọn Project
+   - Enable ZAP Scanner
+   - Lauch
  - Tại cửa sổ Terminal sẽ thấy được quá trình Scan
 ## Như vậy là đã demo thành công Scan khi tích hợp OWASP ZAP và Archerysec.
