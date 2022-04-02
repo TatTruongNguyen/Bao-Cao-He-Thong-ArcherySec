@@ -6,9 +6,9 @@ Báo Cáo Hệ Thống ArcherySec
 #### Archery là một công cụ quản lý và đánh giá lỗ hổng mã nguồn mở, giúp các nhà phát triển và người tiêu dùng thực hiện quét và quản lý các lỗ hổng. Archery sử dụng các công cụ nguồn mở phổ biến để thực hiện quét toàn diện cho ứng dụng web và mạng. Nó cũng thực hiện quét xác thực động ứng dụng web và bao gồm toàn bộ ứng dụng bằng cách sử dụng selen. Các nhà phát triển cũng có thể sử dụng công cụ để triển khai môi trường DevOps CI / CD của họ.
 
 - Cài đặt hệ thống Archerysec
- - Thiết lập hệ thống
- - Triển khai bằng Vagrant và Ansible
- - Cài đặt Archerysec làm Docker Container
+  - Thiết lập hệ thống
+  - Triển khai bằng Vagrant và Ansible
+  - Cài đặt Archerysec làm Docker Container
 
 - Cài đặt và tích hợp OWASP ZAP vào Archerysec
 - Demo scan trang web với OWASP ZAP
