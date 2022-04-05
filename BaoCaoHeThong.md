@@ -22,6 +22,8 @@ $ cd archerysec
 $ NAME=user EMAIL=admin@user.com PASSWORD=admin@123A bash setup.sh
 $ bash run.sh
 ```
+![1](https://user-images.githubusercontent.com/102846135/161702643-cde89e0b-c2fc-421a-a345-a5f1ecd24e6a.jpg)
+
 ### Các biến môi trường
 #### `DB_PASSWORD` <!-- omit in toc -->
 
@@ -85,6 +87,8 @@ Set this variable to SMTP Email.
 - `Truy cập địa chỉ http://0.0.0.0:8000`
 - `Đăng nhập vào hệ thống với Username: admin@user.com, Password: admin@123A`
 
+![2](https://user-images.githubusercontent.com/102846135/161702891-837feb9d-5949-4263-be2a-d7987987de6f.jpg)
+
 ## 1.2. Triển khai bằng Vagrant và Ansible
 ### Triển khai
 #### Chạy các lệnh sau để thiết lập
@@ -117,16 +121,24 @@ $ docker-compose up -d
 `$ ./ZAP 2.11.1.unix.sh`
 - Ở tại ứng dụng OWASP ZAP
   - Tools > Options > API > Copy API Key
+  ![3](https://user-images.githubusercontent.com/102846135/161702905-2e125ada-19e4-4e9e-b05e-304b7b59709e.jpg)
   - Tools > Options > Local Proxies > Copy Address và Port
+  ![4](https://user-images.githubusercontent.com/102846135/161702935-21cfe74f-55d9-4089-8831-e5c5a5b3ae13.jpg)
 - Tại hệ thống Archerysec
   - Settings > Enable API > Paste ZAP API Key > Paste ZAP API Host > Paste ZAP API Port
+  ![5](https://user-images.githubusercontent.com/102846135/161702941-8bf821e7-147f-46af-ad33-670557527cc6.jpg)
   - Save
+  ![6](https://user-images.githubusercontent.com/102846135/161702942-5c1ec544-963d-4b18-815a-e5828cd57365.jpg)
  # 3. Demo scan trang web với OWASP ZAP
  - Tại hệ thống Archerysec 
    - Create New > Domain Scans
+   ![7](https://user-images.githubusercontent.com/102846135/161702945-876d6417-7f22-48dd-8343-e9db06c75758.jpg)
    - URL's: nhập URL muốn scan (ví dụ:https://www.facebook.com/)
+   ![8](https://user-images.githubusercontent.com/102846135/161702951-99d73b46-20a4-4543-ac14-ae0305e32252.jpg)
    - Chọn Project
    - Enable ZAP Scanner
+   ![9](https://user-images.githubusercontent.com/102846135/161702955-d6198ca4-7f10-49ef-9e28-cd8ab3cc895c.jpg)
    - Lauch
  - Tại cửa sổ Terminal sẽ thấy được quá trình Scan
+ ![10](https://user-images.githubusercontent.com/102846135/161702959-312cf4b4-fa44-4bf0-aa1a-96dec2789cf3.jpg)
 ## Như vậy là đã demo thành công Scan khi tích hợp OWASP ZAP và Archerysec.
