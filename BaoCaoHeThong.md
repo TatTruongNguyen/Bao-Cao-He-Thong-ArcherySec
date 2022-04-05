@@ -120,6 +120,7 @@ $ docker-compose up -d
 
 # 2. Cài đặt và tích hợp OWASP ZAP vào Archerysec
 - Tải OWASP ZAP tại trang chủ OWASP ZAP
+![image](https://user-images.githubusercontent.com/102846135/161708081-4c621a84-da89-41e7-bbaf-fa68c69d856b.png)
 - Tiến hành cài đặt bằng dòng lệnh
 `$ ./ZAP 2.11.1.unix.sh`
 - Ở tại ứng dụng OWASP ZAP
