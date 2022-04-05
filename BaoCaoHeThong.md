@@ -15,6 +15,9 @@ Báo Cáo Hệ Thống ArcherySec
 
 # 1. Cài đặt hệ thống Archerysec
 ## 1.1. Thực hiện chạy các dòng lệnh để thiết lập hệ thống
+### Yêu cầu trước khi cài đặt
+- Máy có cài hệ điều hành Linux
+- Python 3.6+ có cài đặt pip
 ### Cài đặt
 ```
 $ git clone https://github.com/archerysec/archerysec.git
